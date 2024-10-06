@@ -29,6 +29,20 @@ public class DiamondPrinterTests
     {
         Assert.Throws<ArgumentException>(() => DiamondPrinter.Create('1'));
     }
+    [Fact]
+    public void TestDiamondsWithLargeLetterZ()
+    {
+        var result = DiamondPrinter.Create('Z');
+        //Performance check
+        Assert.NotNull(result);
+    }
+
+    [Fact]
+    public void TestBuildLineWithC()
+    {
+        var result = DiamondPrinter.BuildLine('C', 2, '_');
+        Assert.Equal("__C___C__", result);
+    }
 
 
 
