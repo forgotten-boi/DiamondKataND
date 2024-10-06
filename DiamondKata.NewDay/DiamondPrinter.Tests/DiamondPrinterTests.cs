@@ -22,7 +22,16 @@ public class DiamondPrinterTests
     {
         var result = DiamondPrinter.Create('C');
         Assert.Equal("  A  \n B B \nC   C\n B B \n  A  ", result);
-       
     }
+
+    [Fact]
+    public void TestArgumentExceptionForInvalidCharacter()
+    {
+        Assert.Throws<ArgumentException>(() => DiamondPrinter.Create('1'));
+    }
+
+
+
+
 
 }
