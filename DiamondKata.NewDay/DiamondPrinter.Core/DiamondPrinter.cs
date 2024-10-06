@@ -6,7 +6,7 @@ public static class DiamondPrinter
 {
     public static string Create(char diamondLetter)
     {
-        if(diamondLetter > 'A' || diamondLetter < 'Z')
+        if(diamondLetter < 'A' || diamondLetter > 'Z')
         {
             throw new ArgumentException();
         }
