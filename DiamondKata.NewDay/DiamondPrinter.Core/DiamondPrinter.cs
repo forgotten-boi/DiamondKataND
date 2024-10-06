@@ -2,8 +2,12 @@
 
 public static class DiamondPrinter
 {
-    public static string Create(string diamondLetter)
+    public static string Create(char diamondLetter)
     {
-        return "A";
+        if (diamondLetter != null)
+        {
+            return diamondLetter + "\n";
+        }
+        return string.Empty;
     }
 }
