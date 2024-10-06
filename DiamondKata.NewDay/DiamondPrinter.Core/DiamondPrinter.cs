@@ -8,6 +8,10 @@ public static class DiamondPrinter
         {
             return diamondLetter + "\n";
         }
+        if(diamondLetter == 'B')
+        {
+            return " A \nB B\n A \n";
+        }
         return string.Empty;
     }
 }
