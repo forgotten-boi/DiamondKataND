@@ -6,6 +6,10 @@ public static class DiamondPrinter
 {
     public static string Create(char diamondLetter)
     {
+        if(diamondLetter > 'A' || diamondLetter < 'Z')
+        {
+            throw new ArgumentException();
+        }
         //char cannot be null, thus null check is not required.
         if (diamondLetter == 'A') //for only one letter, it is diamond in itself
         {
