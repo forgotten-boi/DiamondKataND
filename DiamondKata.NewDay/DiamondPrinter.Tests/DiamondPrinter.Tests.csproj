@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DiamondPrinter.Core\DiamondPrinter.Core.csproj" />
+  </ItemGroup>
+
 </Project>

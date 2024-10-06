@@ -1,5 +1,7 @@
 namespace DiamondPrinter.Tests;
 
+using DiamondPrinter.Core;
+
 public class DiamondPrinterTests
 {
     [Theory]
