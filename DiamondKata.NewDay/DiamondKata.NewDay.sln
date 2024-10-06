@@ -3,17 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondPrinter.Tests", "DiamondPrinter.Tests\DiamondPrinter.Tests.csproj", "{C59E0E81-44D9-46BC-B240-7447C53ED1FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondPrinter.Tests", "DiamondPrinter.Tests\DiamondPrinter.Tests.csproj", "{C59E0E81-44D9-46BC-B240-7447C53ED1FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondPrinter.Core", "DiamondPrinter.Core\DiamondPrinter.Core.csproj", "{9DE0262A-1272-423F-AA3F-B78908588BF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondPrinter.Core", "DiamondPrinter.Core\DiamondPrinter.Core.csproj", "{9DE0262A-1272-423F-AA3F-B78908588BF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diamond", "Diamond\Diamond.csproj", "{4D46E61A-1CED-4028-BECE-BCB4666E6644}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C59E0E81-44D9-46BC-B240-7447C53ED1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +23,15 @@ Global
 		{9DE0262A-1272-423F-AA3F-B78908588BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DE0262A-1272-423F-AA3F-B78908588BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DE0262A-1272-423F-AA3F-B78908588BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D46E61A-1CED-4028-BECE-BCB4666E6644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D46E61A-1CED-4028-BECE-BCB4666E6644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D46E61A-1CED-4028-BECE-BCB4666E6644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D46E61A-1CED-4028-BECE-BCB4666E6644}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DAA9E10-FB15-45BD-9403-20E2DAB9984C}
 	EndGlobalSection
 EndGlobal
