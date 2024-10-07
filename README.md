@@ -1,5 +1,5 @@
 # Diamond Kata Project
-A solution for Diamond kata project where given a character from the alphabet, it prints a diamond of its output with that character being the midpoint of the diamond. This project has followed Test driven Development
+A solution for Diamond kata project where given a character from the alphabet, it prints a diamond of its output with that character being the midpoint of the diamond. This project has followed Test driven Development. 
 
 ## Project Structure
 ### DiamondPrinter.Test 
